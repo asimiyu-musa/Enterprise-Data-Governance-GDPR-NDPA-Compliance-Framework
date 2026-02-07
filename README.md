@@ -2,21 +2,28 @@
 
 ## Project Overview
 
-This capstone project outlines a robust Enterprise Data Governance and NDPA Compliance Framework tailored for utility organizations. These entities handle vast quantities of sensitive data, including customer profiles, operational metrics, infrastructure details, and consumption patterns. The framework aims to unify disparate data silos into a centralized, secure, and compliant ecosystem that adheres to the Nigeria Data Protection Act (NDPA), incorporates GDPR-inspired privacy-by-design principles, and follows industry-leading data governance best practices.
+This capstone project outlines a robust Enterprise Data Governance and NDPA Compliance Framework tailored for utility organisations. These entities handle vast quantities of sensitive data, including customer profiles, operational metrics, infrastructure details, and consumption patterns. The framework aims to unify disparate data silos into a centralised, secure, and compliant ecosystem that adheres to the Nigeria Data Protection Act (NDPA), incorporates GDPR-inspired privacy-by-design principles, and follows industry-leading data governance best practices.
 
 By implementing secure data lifecycle management, this architecture ensures data integrity, confidentiality, and availability while mitigating risks associated with regulatory non-compliance, data breaches, and operational inefficiencies. The end result is a scalable, auditable data platform that supports strategic business objectives, fosters trust among stakeholders, and enables advanced analytics without compromising security or privacy.
 
 ## Objectives
 
-The primary objectives of this framework are multifaceted, focusing on protection, standardization, and optimization:
+The primary objectives of this framework are multifaceted, focusing on protection, standardisation, and optimisation:
 
-- **Data Protection**: Safeguard personally identifiable information (PII) and personally sensitive information (PSI) through privacy-by-design methodologies, including encryption, anonymization, and consent-driven processing.
-- **Standardization**: Develop enterprise-wide data classification standards to ensure consistent handling and categorization of data assets.
+- **Data Protection**: Safeguard personally identifiable information (PII) and personally sensitive information (PSI) through privacy-by-design methodologies, including encryption, anonymisation, and consent-driven processing.
+- **Standardisation**: Develop enterprise-wide data classification standards to ensure consistent handling and categorisation of data assets.
 - **Access Management**: Implement granular role-based access control (RBAC) to restrict data access based on user roles, responsibilities, and business needs.
 - **Auditability**: Achieve comprehensive tracking of data interactions, including access logs, modifications, and usage patterns, to support forensic analysis and regulatory audits.
 - **Metadata Management**: Provide full visibility into data metadata and lineage, enabling traceability from source to consumption.
 - **Quality Assurance**: Enhance data quality through automated validation, monitoring, and remediation processes to maintain accuracy and reliability.
 - **Strategic Alignment**: Integrate data management practices with overarching business strategies, promoting data-driven decision-making and operational excellence.
+
+## Architecture Overview
+
+<p align="center">
+  <img src="Data Governace.png" alt="Enterprise Data Governance & NDPA Compliance Architecture" width="800"/>
+</p>
+
 
 ## Business Context
 
@@ -33,7 +40,7 @@ These datasets are often fragmented across legacy systems, leading to challenges
 - Insufficient audit trails, increasing vulnerability to compliance violations.
 - Gaps in regulatory adherence, particularly under NDPA mandates for data protection.
 - Inconsistent data schemas, resulting in errors during integration and analysis.
-- Inadequate access controls, exposing sensitive information to unauthorized users.
+- Inadequate access controls exposing sensitive information to unauthorised users.
 
 This framework addresses these issues by establishing a unified governance model that reduces risks, streamlines operations, and enhances data utility.
 
