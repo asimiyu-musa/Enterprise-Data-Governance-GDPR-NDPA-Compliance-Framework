@@ -82,7 +82,7 @@ These sources generate structured, semi-structured, and unstructured data, neces
 This layer handles data acquisition with an emphasis on security and efficiency:
 - **Extraction**: Pull data from sources via APIs, file transfers, or direct database connections.
 - **Validation**: Initial checks for format compliance and basic integrity.
-- **Standardization**: Normalize data schemas to align with enterprise standards.
+- **Standardisation**: Normalise data schemas to align with enterprise standards.
 - **Secure Transport**: Employ encryption (e.g., TLS) and secure protocols.
 
 Recommended technologies include ETL/ELT tools like Apache NiFi or Talend for batch and real-time processing.
@@ -201,7 +201,7 @@ flowchart LR
     E --> F[Secure Deletion]
 ```
 
-Policies align with NDPA, including data minimization and secure erasure.
+Policies align with NDPA, including data minimisation and secure erasure.
 
 ## Compliance Alignment
 
@@ -214,12 +214,12 @@ Key features: Consent management, minimal data collection, and encrypted storage
 
 ## Technologies Referenced
 
-- **Databases**: PostgreSQL or Oracle for operational storage.
-- **Data Warehouses**: Snowflake or Redshift for analytics.
-- **ETL/ELT Tools**: Apache Airflow or dbt for orchestration.
-- **Metadata Management**: Azure Purview or Apache Atlas.
-- **Access Management**: Okta or Active Directory.
-- **Monitoring**: Prometheus, Grafana, or Splunk.
+- **Databases**: PostgreSQL for operational storage.
+- **Data Warehouses**: Snowflake for analytics.
+- **ETL/ELT Tools**: Apache Airflow for orchestration.
+- **Metadata Management**: Azure Purview.
+- **Access Management**: Okta.
+- **Monitoring**: PowerBI.
 
 ## Business Impact
 
@@ -236,7 +236,7 @@ This project showcases proficiency in:
 - Designing enterprise-scale data governance architectures.
 - Architecting compliance-focused data platforms.
 - Managing end-to-end data lifecycles.
-- Modeling secure access and metadata systems.
+- Modelling secure access and metadata systems.
 - Integrating governance with business strategy.
 
 It positions the author as a versatile data engineer capable of addressing complex regulatory and operational challenges.
@@ -250,9 +250,7 @@ Data Engineer | Data Governance Specialist | Analytics Consultant
 
 [View Portfolio](https://asimiyu-musa.github.io/project-portfolio/)
 
-## License
 
-This document is provided for portfolio and educational purposes only. All rights reserved. No commercial use without explicit permission.
 📄 License
 
 For portfolio and educational demonstration purposes.
